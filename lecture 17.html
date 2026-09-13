@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input  id="namebox" type="text" placeholder="Your name">
+    <button onclick="greet()">Greet</button>
+    <h2 id="msg"></h2>
+
+    <input id="n1" type="number" placeholder="first number">
+    <input id="n2" type="number" placeholder="second number">
+
+    <button onclick="add()">Addition</button>
+    <button onclick="subtract()">Subtraction</button>
+    <button onclick="multiply()">Multiplication</button>
+    <button onclick="divide()">Division</button>
+
+    <p id ="output"></p>
+
+    <script>
+        function greet() {
+            let name =document.getElementById("namebox").value;
+            document.getElementById("msg").textContent  = "Welcome, " + name;
+        }
+
+        function add() {
+    let a = Number(document.getElementById("n1").value);
+    let b = Number(document.getElementById("n2").value);
+
+    document.getElementById("output").textContent = a + b;
+}
+
+function subtract() {
+    let a = Number(document.getElementById("n1").value);
+    let b = Number(document.getElementById("n2").value);
+
+    document.getElementById("output").textContent = a - b;
+}
+
+function multiply() {
+    let a = Number(document.getElementById("n1").value);
+    let b = Number(document.getElementById("n2").value);
+
+    document.getElementById("output").textContent = a * b;
+}
+
+function divide() {
+    let a = Number(document.getElementById("n1").value);
+    let b = Number(document.getElementById("n2").value);
+
+    document.getElementById("output").textContent = a / b;
+}
+        console.log("error");
+    </script>
+</body>
+</html>

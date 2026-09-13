@@ -51,18 +51,20 @@
 //     }
 // }
 
-function greet(name){
-    console.log("Hello," + name  );
-}
-greet(" Alice");
-function add(a ,b){
-    return a+b;
-}
-function sub(a,b){
-    return a-b;
-}
-let sum =add(10,5);
-let difference = sub(18,5);
-console.log(sum);
-console.log(difference);
+// function greet(name){
+//     console.log("Hello," + name  );
+// }
+// greet(" Alice");
+// function add(a ,b){
+//     return a+b;
+// }
+// function sub(a,b){
+//     return a-b;
+// }
+// let sum =add(10,5);
+// let difference = sub(18,5);
+// console.log(sum);
+// console.log(difference);
+
+
 
